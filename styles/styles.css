@@ -62,6 +62,7 @@ h1 {
   position: relative;
   display: inline-block;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #fff;
   padding: 0.5rem 1rem;
@@ -202,16 +203,16 @@ main section img {
   margin-top: 1rem;
 }
 
-#contact li {
+#contact li, ul.app-links li {
   margin: 0 0 1rem 0;
 }
 
-#contact a {
+#contact a, ul.app-links a {
   color: #54b3d6;
   text-decoration: none;
 }
 
-#contact a:hover {
+#contact a:hover, ul.app-links a:hover {
   text-decoration: underline;
 }
 
